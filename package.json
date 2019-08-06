@@ -1,5 +1,5 @@
 {
-  "name": "@testing-library/user-event",
+  "name": "michalchmura-testing-library__user-event",
   "version": "0.0.0-development",
   "description": "Simulate user events for react-testing-library",
   "keywords": [
