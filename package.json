@@ -1,6 +1,6 @@
 {
   "name": "michalchmura-testing-library__user-event",
-  "version": "4.2.4",
+  "version": "4.2.4-add-user-opts",
   "description": "Simulate user events for react-testing-library",
   "keywords": [
     "react-testing-library",
