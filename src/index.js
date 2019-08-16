@@ -18,9 +18,9 @@ function clickLabel(label) {
   fireEvent.mouseDown(label);
   fireEvent.mouseUp(label);
 
-  if (label.htmlFor) {
-    const input = document.getElementById(label.htmlFor);
-    input.focus();
+  const inputFor = label.htmlFor && document.getElementById(label.htmlFor);
+  if (inputFor) {
+    inputFor.focus();
     fireEvent.click(label);
   } else {
     const input = label.querySelector("input,textarea,select");
